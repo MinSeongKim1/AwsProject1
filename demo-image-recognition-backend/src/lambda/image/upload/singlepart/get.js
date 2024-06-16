@@ -1,6 +1,3 @@
-/**
- * @author: youtube.com/@AWSClassroom
- */
 const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
 const { getSignedUrl } = require("@aws-sdk/s3-request-presigner");
 var Base64 = require("js-base64").Base64;
