@@ -27,7 +27,6 @@ mode: "stream",
 };
 }
 
-
 onValueChanged = (name, value) => {
     let obj = {};
     obj[name] = value;
